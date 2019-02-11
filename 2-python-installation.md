@@ -1,6 +1,6 @@
 # Python Installation and Creating a Virtual Environment 
 
-There are two versions of Python, Python 2 and Python 3. For this class we will be using Python 3, which you will need to install on your computer. 
+There are two versions of Python: Python 2 and Python 3. For this class we will be using Python 3, which you will need to install on your computer. 
 
 ## Windows
 Follow [this guide](https://docs.python-guide.org/starting/install3/win/).
@@ -47,7 +47,7 @@ Your virtual environment contains an isolated copy of Python and the packages th
 
 #### If you prefer following written instructions, read on:
 
-1. Install virtualenv. Virtualenv is a tool to create isolated Python environments. It basically creates a folder that's a copy of your Python installation, with everything you need inside. Then you build your Python project inside that folder. 
+1. Install virtualenv. Virtualenv is a tool to create isolated Python environments. It basically creates a folder that's a copy of your Python installation, with everything you need inside. Then you can activate and deactivate different custom installations of Python for different projects you're working on.  
 
 You install virtualenv via the command line, with this simple line of code: 
 
@@ -158,8 +158,8 @@ python hello.py
 ```
 Hopefully you see your hello python message and the answers to your math problems.
 
-Editing a text file and running it through the command line is a perfectly good way to use Python, but it would be nice to edit and run these scripts inside your text editor. Keep going to learn how... 
-
+Editing a text file and running it through the command line is good way to use Python. You can even install a plugin into most text editors to get a command prompt window in the editor itself. 
+But you might want to edit and run these scripts inside your text editor. Keep going to learn how... 
 
 ## Add a script extension to your favorite text editor or install an IDE 
 
@@ -168,11 +168,13 @@ Unlike JavaScript, which runs when you load your website into a browser, a pytho
 
 * Atom  
   * Install [script](https://atom.io/packages/script)
+  * Then make sure that it's running Python 3: Go to menu Packages --> Script --> Configure Script and type `python3` into the Command space.
+  
   * You might also want a Python autocomplete package. [Here's a good one](https://atom.io/packages/autocomplete-python). 
   * While you're installing stuff in Atom, you might play around with themes to color the text and background. I like Atom-Material [syntax](https://atom.io/themes/atom-material-syntax) and [UI](https://atom.io/themes/atom-material-ui). 
 
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * Install the [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python), which essentially makes your text editor into an IDE (I think). 
+  * Install the [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
   * or install [CodeRunner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 * [PyCharm](https://www.jetbrains.com/pycharm/) is a nice IDE. The free community version is good. 
@@ -183,3 +185,4 @@ Open your hello.py file in the editor. You should see the code that you typed vi
 You should see your output in a console in the bottom of the editor. 
 
 ### Congratulations. Take a break. You deserve it. 
+
